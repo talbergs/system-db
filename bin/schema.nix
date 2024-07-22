@@ -7,6 +7,8 @@ pkgs.writeShellApplication {
     automake
     autoconf
     busybox
+    gcc
+    gnumake
   ];
   text = ''
     set +u
